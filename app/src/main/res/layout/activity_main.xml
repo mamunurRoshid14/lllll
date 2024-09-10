@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sumaiya" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Umma Sumaiya Jahan"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Student Id: 20200650721"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Dept of Computer Science and Engineering"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Jahanara Imam Hall"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="70dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Contact Me"
+        android:textSize="10sp"
+        android:gravity="center"
+        android:textStyle="italic"/>
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_marginLeft="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/facebookLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebooklogo"
+            android:layout_margin="16dp" />
+
+        <ImageView
+            android:id="@+id/whatsappLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/whatsapplogo"
+            android:layout_margin="16dp" />
+
+        <ImageView
+            android:id="@+id/phoneCallLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/phonecalllogo"
+            android:layout_margin="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/githubLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/githublogo"
+            android:layout_margin="16dp" />
+
+        <ImageView
+            android:id="@+id/linkedinLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/linkedinlogo"
+            android:layout_margin="16dp" />
+
+        <ImageView
+            android:id="@+id/emailLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/emaillogo"
+            android:layout_margin="16dp" />
+    </LinearLayout>
+</LinearLayout>
